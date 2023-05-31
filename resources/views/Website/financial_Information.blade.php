@@ -1,10 +1,12 @@
 @extends('website.parent')
 
-@section('title','Title')
+@section('title','Financial')
 
 
 @section('styles')
 <link rel="stylesheet" href="{{asset('website/assets/css/finincial.css')}}">
+<link rel="stylesheet" href="{{ asset('website/assets/css/responsive.css') }}">
+
 
 @endsection
 
@@ -80,7 +82,9 @@
                   </div>
                 </div>
                 <div class="checkboxes">
-                  <p> <span><input type="checkbox" name="" id=""></span> أوافق على إصدار سند لأمر كضمان شخصي للتمويل
+                  <p>
+                    <span><input type="checkbox" name="" id="">
+                    </span> أوافق على إصدار سند لأمر كضمان شخصي للتمويل
                   </p>
 
                   <label for="mortgage-original" class="ms-4">هل تود رهن الأصل؟</label>
@@ -120,7 +124,7 @@
                 </button>
 
                 <button type="button">
-                  <a href="./financial_Information.html">
+                  <a href="{{route('website.document')}}">
                     التالي
                     <i class="fa-solid fa-chevron-left me-4 "></i>
                   </a>

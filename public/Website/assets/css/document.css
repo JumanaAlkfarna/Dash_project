@@ -1,0 +1,142 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Pacifico&family=Playfair+Display:wght@400;500;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Cairo', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Pacifico&family=Playfair+Display:wght@400;500;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Pacifico', 'cursive'; */
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --mainColor: #26B195;
+    --whiteColor: #fff;
+    --blackColor: #263238;
+    --redColor: #EE4D42;
+    --greyColor: #F7F7F7;
+    --greyDarkColor: #C7C7C7;
+    --textColor: #1C2E5A;
+
+}
+
+
+
+::selection {
+    color: var(--whiteColor);
+    background-color: var(--mainColor);
+}
+
+
+.score .circles .two {
+    width: 29px;
+    height: 29px;
+    border: 5px solid #CFEEE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-bar {
+    width: 100%;
+}
+.checkboxes p{
+    font-size: 14px;
+}
+.checkboxes a{
+    color: var(--mainColor);
+    padding-right: 9%;
+    font-size: 14px;
+}
+
+.input-container_File.bg  {
+    background-color: transparent;
+}
+.upload_file i{
+ color: var(--whiteColor) !important;
+}
+.note a{
+    color: var(--mainColor);
+}
+.input.border {
+border-color: transparent;
+border: 0;
+}
+.input.bg {
+    background-color: transparent;
+    padding-top: 3px;
+
+}
+.input.bg .all {
+    background-color: transparent;
+    width: 150px;
+    height: 47px;
+   background-color: #F4FBFA;
+   padding-right: 10px;
+   position: relative;
+
+}
+ .file-item{
+    display: flex;
+ flex-direction: column;
+ /* gap: 20px; */
+}
+.fileList .file-item{
+    width: 424px;
+  height: 47px;
+ background-color: #F4FBFA;
+ margin-bottom: 15px;
+ padding: 10px;
+ padding-right: 15px;
+
+ position: relative;
+}
+
+
+  .all {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap :10px;
+  }
+  .data-item span {
+    display: block;
+    font-weight: 600;
+    color: #676767    ;
+    font-size: 11px;
+ font-weight: 400;
+  }
+  .all .data-item {
+    text-align: left;
+  }
+  .all .img {
+    width: 30px;
+    height: 30px;
+  }
+.fileList div button ,
+.input.bg  .close-button{
+    position: absolute;
+   background-color: transparent;
+   border: 0;
+   left : 5%;
+   top: 30%;
+   font-size: 14px;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+.input.bg  .close-button{
+    position: absolute;
+   background-color: transparent;
+   border: 0;
+   left : 8%;
+   top: 15%;
+   font-size: 14px;
+   font-weight: 600;
+   cursor: pointer;
+}

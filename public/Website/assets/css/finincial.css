@@ -38,18 +38,18 @@
 }
 
 .score .circles .one {
-    width: 24px;
-    height: 24px;
+    width: 29px;
+    height: 29px;
     border: 5px solid #CFEEE8;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.score .circles .one i {
+.score .circles  i {
+    padding-top: 3px;
     color: white;
-    font-size: 10px;
-
+    font-size: 12px;
 }
 
 .progress-bar {

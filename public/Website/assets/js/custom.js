@@ -5,7 +5,7 @@
  setTimeout((_) => {
    loading.style.display = "none";
    navbar.style.display = "block"
- }, 4000);
+ }, 100);
 
 
 
@@ -24,6 +24,21 @@
 
 
 //
+
+//  To display Files
+function displaySelectedFile(input) {
+    var fileMessage = document.getElementById('file-message');
+
+    if (input.files && input.files[0]) {
+      var file = input.files[0];
+      var fileName = file.name;
+      var fileExtension = fileName.split('.').pop();
+
+      fileMessage.textContent = fileName + ' (' + fileExtension + ')';
+    } else {
+      fileMessage.textContent = 'لا يوجد ملف مختار';
+    }
+  }
 
 
 

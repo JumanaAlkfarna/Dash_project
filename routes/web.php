@@ -21,7 +21,5 @@ Route::get('/', function () {
 Route::prefix('front/user')->group(function(){
     Route::get('/purchaes',[HomeController::class,'purchaes'])->name('website.purchaes');
     Route::get('/financial', [HomeController::class, 'financial'])->name('website.financial');
-
-
-
+    Route::get('/document', [HomeController::class, 'document'])->name('website.document');
 });

@@ -347,6 +347,9 @@
         width: 80%;
 
     }
+    .fileList .file-item {
+        width: 320px;
+    }
 
 }
 
@@ -438,7 +441,12 @@
 
     }
 
-
+    .Next button {
+        border: 0;
+        background-color: transparent;
+        width: 110px;
+        height: 55px;
+      }
 
 }
 
@@ -505,6 +513,9 @@
         margin-right: 20px;
     }
 
+    .fileList .file-item {
+        width: 280px;
+    }
 }
 
 @media (max-width: 365px) {

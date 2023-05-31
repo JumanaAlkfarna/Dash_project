@@ -216,19 +216,24 @@
           </div>
 
           <div class="inform">
+
             <div class="tabs">
               <div class="tab">
-                <input type="checkbox" id="chck1" style="visibility: hidden;">
-                <label class="tab-label" for="chck1">
+                <label class="tab-label mt-4" for="chck1">
                   <p href="" class="link ">
                     <i class="fa-regular fa-circle-info ms-2"></i>
                     ثمار
+                    <i class="fa-solid fa-chevron-left me-4 "></i>
                   </p>
                 </label>
                 <div class="tab-content">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
                 </div>
               </div>
+
+
+
+
 
             </div>
 
@@ -313,7 +318,7 @@
   <script src="{{ asset('website/assets/js/custom.js')}}"></script>
 
   @yield('scripts')
- 
+
 
 </body>
 

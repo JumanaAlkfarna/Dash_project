@@ -12,4 +12,7 @@ class HomeController extends Controller
     public function financial(){
         return view('website.financial_Information');
     }
+    public function document(){
+        return view('website.document');
+    }
 }
