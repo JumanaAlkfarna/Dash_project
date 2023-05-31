@@ -49,7 +49,32 @@
     <div class="offcanvas-body">
       <div class="  ">
         <div class="menu">
+
+
           <div class="inside_menu">
+            <div class="row">
+                <div class="col-2">
+                  <i class="fa-light fa-circle-user pt-2"></i>
+                </div>
+                <div class="col-6">
+                  <span class="name">
+                    خديجة محمد
+                    <p class="order">طلب تمويل</p>
+                  </span>
+                </div>
+
+                <div class="dropdown d-inline-block col-2">
+                  <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-regular fa-angle-down pt-2"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">USD</a></li>
+                    <li><a class="dropdown-item" href="#">INR</a></li>
+                    <li><a class="dropdown-item" href="#">GBP</a></li>
+                  </ul>
+                </div>
+              </div>
+
             <a href="#" class="link">
               <img src="{{ asset('website/assets/img/Icons/logoIcon.png')}}" class="ms-3" alt="logoIcon" loading="lazy" />
               موّل مشترياتك
@@ -83,21 +108,19 @@
 
           <div class="inform">
             <div class="tabs">
-              <div class="tab">
-                <input type="checkbox" id="chck1" style="visibility: hidden;">
-                <label class="tab-label" for="chck1">
-                  <p href="" class="link ">
-                    <i class="fa-regular fa-circle-info ms-2"></i>
-                    ثمار
-                  </p>
-                </label>
-                <div class="tab-content">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                <div class="tab">
+                  <label class="tab-label mt-4" for="chck1">
+                    <p href="" class="link ">
+                      <i class="fa-regular fa-circle-info ms-2"></i>
+                      ثمار
+                      <i class="fa-solid fa-chevron-left me-4 "></i>
+                    </p>
+                  </label>
+                  <div class="tab-content d-none">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                  </div>
                 </div>
-              </div>
-
             </div>
-
 
           </div>
 
@@ -226,7 +249,7 @@
                     <i class="fa-solid fa-chevron-left me-4 "></i>
                   </p>
                 </label>
-                <div class="tab-content">
+                <div class="tab-content d-none">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
                 </div>
               </div>

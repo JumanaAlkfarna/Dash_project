@@ -368,7 +368,7 @@ img {
   padding-right: 20px;
 }
 
-.menu .inform a {
+ .inform .tab a.link  {
   color: #7E7E7E;
 }
 
@@ -871,4 +871,18 @@ div.downSide {
 .offcanvas {
   width: 30% !important;
   background-color: #F8F8F8;
+}
+.offcanvas .inside_menu{
+  padding-bottom: 20px;
+}
+.inside_menu .row {
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 20px;
+}
+.inside_menu .row i{
+    font-size: 25px;
+    color: var(--mainColor);
+}
+.inside_menu .row .order{
+    color: var(--greyDarkColor);
 }
