@@ -1,0 +1,579 @@
+/* Responsive  */
+@media (max-width: 1990px) and (min-width:1470px) {
+    .navbar {
+        /* width: 97%; */
+    }
+
+    .pe {
+        padding-right: 140px;
+    }
+
+    .end {
+        padding-left: 100px;
+    }
+
+
+}
+
+@media (max-width: 1328px) {
+
+    /* For tablets: */
+    .LefSide {
+        padding: 37px 25px 37px 5px;
+    }
+
+    footer .info a {
+        font-size: 18px;
+    }
+
+    footer .ContactUs a i {
+        font-size: 16px;
+        padding-right: 20px;
+
+    }
+}
+
+@media (max-width: 1226px) {
+
+    /* For tablets: */
+    .score .circles {
+        width: 90%;
+        top: 65%;
+        left: 28px;
+    }
+
+}
+
+@media (max-width: 1170px) {
+
+    /* For tablets: */
+    .score {
+        /* padding-right: 30px; */
+    }
+
+    .score .progress {
+        width: 80%;
+    }
+
+    .score .num {
+        width: 80%;
+    }
+
+    .score .circles {
+        width: 85%;
+        position: absolute;
+        top: 65%;
+        left: 27px;
+    }
+
+    h3::after {
+        content: "";
+        position: absolute;
+        height: 1.2px;
+        width: 70%;
+        background-color: var(--mainColor);
+        top: 12px;
+        left: 0px;
+    }
+}
+
+@media (max-width: 1125px) {
+
+    /* For tablets: */
+    .LefSide {
+        width: 20%;
+        padding: 37px 20px 37px 5px;
+    }
+
+    .rightSide {
+        width: 78%;
+    }
+
+    footer .info a {
+        font-size: 18px;
+    }
+
+    footer .ContactUs a i {
+        font-size: 14px;
+        padding-right: 20px;
+
+    }
+
+    h3::after {
+        content: "";
+        position: absolute;
+        height: 1.2px;
+        width: 65%;
+        background-color: var(--mainColor);
+        top: 12px;
+        left: 0px;
+    }
+
+
+    .input {
+        width: 400px;
+        height: 55px;
+        padding: 10px 30px;
+        border-radius: 27.5px;
+
+
+    }
+
+    .input-container_File {
+        width: 400px;
+        height: 55px;
+        /* padding: 10px 30px; */
+        border-radius: 27.5px;
+
+    }
+
+
+
+    .input-container_File label.upload_file {
+        position: absolute;
+        left: -1%;
+        top: -3%;
+        width: 150px;
+        height: 55px;
+        border: none;
+        background: var(--mainColor);
+        padding: 17px 0px;
+        border-radius: 27.5px;
+        color: #fff;
+        cursor: pointer;
+        transition: background .2s ease-in-out;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .price-container,
+    .box_sec2 {
+        /* position: relative; */
+        height: 345px;
+        width: 400px;
+        font-size: 14px;
+    }
+
+    .box_sec2 {
+        height: 500px;
+
+    }
+
+    .box_sec2 a {
+        display: block;
+
+    }
+
+
+}
+
+@media (max-width: 1071px) {
+    footer .info a {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+}
+
+
+
+@media (max-width: 991px) {
+
+    /* For tablets: */
+    .LResponsive {
+        display: none;
+    }
+
+    .offcanvas {
+        width: 30% !important;
+    }
+
+    .rightSide {
+        width: 100%;
+    }
+
+
+    h3::after {
+        content: "";
+        position: absolute;
+        height: 1.2px;
+        width: 65%;
+        background-color: var(--mainColor);
+        top: 12px;
+        left: 22px;
+    }
+
+
+    .input {
+        width: 430px;
+    }
+
+    .input-container_File {
+        width: 430px;
+    }
+
+    .price-container,
+    .box_sec2 {
+        /* position: relative; */
+        height: 345px;
+        width: 430px;
+        font-size: 14px;
+    }
+
+    .box_sec2 {
+        min-height: 500px;
+
+    }
+
+    .score .circles {
+        width: 84%;
+        position: absolute;
+        top: 65%;
+        left: 40px;
+    }
+
+
+
+}
+
+@media (max-width: 991px) {
+
+    h3::after {
+        content: "";
+        position: absolute;
+        height: 1.2px;
+        width: 60%;
+        background-color: var(--mainColor);
+        top: 12px;
+        left: 22px;
+    }
+
+    .score {
+        /* padding-right: 30px; */
+    }
+
+    .score .progress {
+        width: 85%;
+    }
+
+    .score .num {
+        width: 85%;
+    }
+
+    .score .circles {
+        width: 85%;
+        position: absolute;
+        top: 65%;
+        left: 33px;
+    }
+
+    .rightSide .Purchases {
+        padding: 10px 0px 100px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 790px) {
+
+    .offcanvas {
+        width: 50% !important;
+    }
+
+    .rightSide .Purchases {
+        padding: 10px 0px 100px;
+        width: 60%;
+
+    }
+
+
+}
+
+@media (max-width: 770px) {
+    .col-8 {
+        width: fit-content;
+    }
+
+    .col-4 {
+        width: 250px;
+    }
+}
+
+@media (max-width: 670px) {
+
+    .score .circles {
+        width: 87%;
+        position: absolute;
+        top: 65%;
+        left: 27px;
+    }
+
+    .input {
+        width: 405px;
+    }
+
+    .input-container_File {
+        width: 405px;
+    }
+
+    .price-container,
+    .box_sec2 {
+        /* position: relative; */
+        height: 345px;
+        width: 405px;
+        font-size: 14px;
+    }
+
+    .box_sec2 {
+        min-height: 500px;
+
+    }
+
+    .rightSide .Purchases {
+        padding: 10px 0px 100px;
+        width: 70%;
+
+    }
+
+    .header {
+        color: var(--mainColor);
+        padding-right: 50px;
+    }
+
+}
+
+@media (max-width: 571px) {
+
+    .rightSide .Purchases {
+        padding: 10px 0px 100px;
+        width: 80%;
+
+    }
+
+}
+
+@media (max-width: 470px) {
+
+    .offcanvas {
+        width: 75% !important;
+    }
+
+    .contctUs {
+        display: block;
+    }
+
+    .input {
+        width: 380px;
+    }
+
+    .input-container_File {
+        width: 380px;
+    }
+
+    .price-container,
+    .box_sec2 {
+        /* position: relative; */
+        height: 345px;
+        width: 380px;
+        font-size: 14px;
+    }
+
+    .box_sec2 {
+        min-height: 500px;
+
+    }
+
+    .rightSide .Purchases {
+        padding: 10px 0px 100px;
+        width: 83%;
+
+    }
+
+}
+
+
+
+@media (max-width: 430px) {
+
+    .navbar-brand img {
+        width: 45px;
+    }
+
+    .end .nav-link {
+        padding: 0px 10px;
+    }
+
+    .rightSide .Purchases {
+        padding: 10px 0px 100px;
+        width: 86%;
+
+    }
+
+    .pages a {
+        font-size: 14px;
+    }
+
+    .input {
+        width: 360px;
+    }
+
+    .input-container_File {
+        width: 360px;
+    }
+
+    .price-container,
+    .box_sec2 {
+        /* position: relative; */
+        height: 345px;
+        width: 360px;
+        font-size: 14px;
+    }
+
+    .box_sec2 {
+        min-height: 500px;
+
+    }
+
+    .rightSide .Purchases {
+        padding: 10px 0px 100px;
+        width: 87%;
+
+    }
+
+
+
+}
+
+@media (max-width: 391px) {
+
+    .pages a {
+        font-size: 13px;
+    }
+
+    .input {
+        width: 300px;
+    }
+
+    .input-container_File {
+        width: 300px;
+    }
+
+    .price-container,
+    .box_sec2 {
+        /* position: relative; */
+        height: 395px;
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .box_sec2 {
+        min-height: 500px;
+
+    }
+
+    .rightSide .Purchases {
+        padding: 10px 0px 100px;
+        width: 80%;
+
+    }
+
+    h3::after {
+        content: "";
+        position: absolute;
+        height: 1.2px;
+        width: 45%;
+        background-color: var(--mainColor);
+        top: 12px;
+        left: 10%;
+    }
+
+    .score .progress {
+        width: 75%;
+    }
+
+    .score .num {
+        width: 75%;
+    }
+
+    .score .circles {
+        width: 80%;
+        position: absolute;
+        top: 65%;
+        left: 33px;
+    }
+
+    .score .pages {
+        width: 90%;
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width: 365px) {
+    .input {
+        width: 275px;
+    }
+
+    .input-container_File {
+        width: 275px;
+    }
+
+    .price-container,
+    .box_sec2 {
+        /* position: relative; */
+        height: 395px;
+        width: 275px;
+        font-size: 14px;
+    }
+
+    .rightSide .Purchases {
+        padding: 10px 0px 100px;
+        width: 87%;
+
+    }
+}
+
+@media (max-width: 318px) {
+
+    .offcanvas {
+        width: 92% !important;
+    }
+
+    .menu a {
+        font-size: 14px !important;
+    }
+
+    footer .info a {
+        font-size: 14px;
+    }
+
+    footer .ContactUs a i {
+        font-size: 12px;
+        padding-right: 15px;
+
+    }
+
+    .navbar-toggler {
+        padding: 4px 6px;
+    }
+
+    .navbar-toggler i {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .input {
+        width: 260px;
+    }
+
+    .input-container_File {
+        width: 260px;
+    }
+
+    .price-container,
+    .box_sec2 {
+        /* position: relative; */
+        height: 395px;
+        width: 260px;
+        font-size: 14px;
+    }
+
+}
