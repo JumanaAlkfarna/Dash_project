@@ -5,7 +5,7 @@
  setTimeout((_) => {
    loading.style.display = "none";
    navbar.style.display = "block"
- }, 100);
+ }, 3000);
 
 
 
