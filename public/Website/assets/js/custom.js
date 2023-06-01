@@ -5,7 +5,7 @@
  setTimeout((_) => {
    loading.style.display = "none";
    navbar.style.display = "block"
- }, 3000);
+ }, 5000);
 
 
 
@@ -39,6 +39,27 @@ function displaySelectedFile(input) {
       fileMessage.textContent = 'لا يوجد ملف مختار';
     }
   }
+
+
+//   To add color for link of menu
+
+let navLink = document.querySelectorAll('.inside_menu a');
+
+navLink.forEach(link => {
+    link.onclick = function color() {
+        clearStyle();
+        link.style.color = "#26B195";
+    }
+});
+
+// تنظيف التنسيقات عن كل الروابط
+function clearStyle() {
+    navLink.forEach(element => {
+        element.style.color = "#7E7E7E";
+    });
+    navLink[0].style.color = "#263238";
+}
+
 
 
 

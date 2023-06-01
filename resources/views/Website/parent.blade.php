@@ -75,32 +75,32 @@
                 </div>
               </div>
 
-            <a href="#" class="link">
+            <a href="#" class=" link">
               <img src="{{ asset('website/assets/img/Icons/logoIcon.png')}}" class="ms-3" alt="logoIcon" loading="lazy" />
               موّل مشترياتك
             </a>
 
-            <a href="#" class="link active">
+            <a href="#" class="navLink active">
               <i class="bi bi-cart"></i>
               المشتريات
             </a>
 
-            <a href="#" class="link">
+            <a href="#" class="navLink">
               <i class="fa-regular fa-credit-card"></i>
               معلومات الدفع
             </a>
 
-            <a href="#" class="link">
+            <a href="#" class="navLink">
               <i class="fa-regular fa-house-chimney-user"></i>
               الموردين
             </a>
 
-            <a href="#" class="link">
+            <a href="#" class="navLink">
               <i class="fa-sharp fa-light fa-id-card"></i>
               معلوماتي
             </a>
 
-            <a href="#" class="link">
+            <a href="#" class="navLink">
               <i class="fa-light fa-comment-dots"></i>
               الشكاوي
             </a>

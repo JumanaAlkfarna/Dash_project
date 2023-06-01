@@ -342,15 +342,15 @@ img {
   cursor: pointer;
 }
 
-.menu a {
+.inside_menu a {
   color: #7E7E7E;
 }
 
 .menu a:first-child {
-  color: var(--blackColor);
+  color: var(--blackColor) !important;
 }
 
-.menu a.active {
+a.active {
   color: var(--mainColor);
 }
 
